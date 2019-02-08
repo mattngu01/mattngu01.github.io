@@ -6,7 +6,7 @@ date: 2019-02-04
 
 When using Unity, there is probably some kind of asset or game object that needs to be replicated to other scenes, or even within the same scene. 
 
-You can just _copy-paste_ it, _right_?
+>You can just copy-paste it, right?
 
 No. Bad. Stop right there.
 
@@ -20,7 +20,7 @@ Let's say you created a Mario clone, and you have a prefab for the red flag mark
 
 If you had already created the flag objects in each level from the prefab, then you'd only have to change the color of the flag prefab, which in turn would make all the other flags turn blue.
 
-But what if you wanted to change the flag's color to blue on the last level? 
+>But what if I wanted to change the flag's color to blue on the last level? 
 
 You can still do that! Making a change within the individual scene wouldn't affect the prefab or other levels' flags. 
 
