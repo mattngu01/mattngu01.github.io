@@ -1,6 +1,6 @@
 title: "Matthew Nguyen"
-author: "Matthew Nguyen"
-description: "Hello?"
+author: ""
+description: "A website for other students working towards their careers in computer science. Learn about productivity methods, beginner unity tutorials/tips, and beginner computer science concepts."
 
 # Jekyll settings
 permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
@@ -14,7 +14,7 @@ post_footer: false            # show previous and next links at the end of each 
 date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
 
 # Theme settings
-style: contrast               # choose between "default", "contrast" and "minimal"
+style: contrast              # choose between "default", "contrast" and "minimal"
 dark_theme: false            # enables dark mode
 
 navigation:                  # (optional) site navigation in the header
@@ -23,12 +23,12 @@ navigation:                  # (optional) site navigation in the header
   - about.md
 
 icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
-  envelope: "mailto:"
-  github: "https://github.com"
+  envelope: "mailto:nguyen.matthewq@gmail.com"
+  github: "https://github.com/MYOOOTT"
   rss: "/feed.xml"
 
 comments:                    # embed disqus or isso comments
-#  disqus: ""
+  disqus: "https://nguyen-matthewq.disqus.com/embed.js"
 #  isso: ""
 
 plugins: 
