@@ -28,7 +28,7 @@ icons:                       # (optional) icons in the header, see http://fontaw
   rss: "/feed.xml"
 
 comments:                    # embed disqus or isso comments
-  disqus: "https://nguyen-matthewq.disqus.com/embed.js"
+  disqus: true
 #  isso: ""
 
 plugins: 
