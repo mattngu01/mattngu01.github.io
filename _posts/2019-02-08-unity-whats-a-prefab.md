@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Unity: What's a prefab?"
+categories: [Unity, Programming]
 date: 2019-02-08
 ---
 
