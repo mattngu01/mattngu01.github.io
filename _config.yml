@@ -1,9 +1,9 @@
 title: "Matthew Nguyen"
 author: ""
-description: "A website for other students working towards their careers in computer science. Learn about productivity methods, beginner unity tutorials/tips, and beginner computer science concepts."
+description: "A website for other students working towards their careers in computer science. Learn about beginner computer science concepts, explained by a student."
 
 # Jekyll settings
-permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
+permalink: /:title/            # see https://jekyllrb.com/docs/permalinks/
 paginate: 10
 excerpt_separator: "\n\n\n"  # indicates the end of the excerpt by two blank lines
 
