@@ -82,6 +82,7 @@ To recap, polymorphism essentially refers to the ability of objects or methods t
 > But Matt, why's it called static and dynamic? 
 
 Well, here ya go. 
+
 **static polymorphism** - behavior is already determined at compile time since it is already set
 
 **dynamic polymorphism** - behavior is determined at run time, depending on the object

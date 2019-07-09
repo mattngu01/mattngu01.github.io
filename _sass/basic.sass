@@ -21,7 +21,12 @@ a
 article a, b, strong, th
   font-weight: $font-weight + 100
 
-h1, h2, h3, h4, h5, h6
+h1
+  font-weight: $heading-weight
+  border-bottom: 1px solid #CCC
+  padding-bottom: 3px
+
+h2, h3, h4, h5, h6
   font-weight: $heading-weight
 
 article a
@@ -47,3 +52,6 @@ img
   max-width: 100%
   height: auto
   margin: .5em 0
+
+li > code
+  background: rgba(148, 148, 148, 0.2)
