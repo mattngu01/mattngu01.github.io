@@ -2,9 +2,25 @@ var alphaset = "abcdefghijklmnopqrstuvwxyz"
 var nums = "123467890"
 var symbols = "!@#$%^&*()_+"
 
+function processOptions(alphabet, numbers, symbols, length) {
+    var charsetList = [];
+    if (alphabet) {
+        charsetList.push(alphaset);
+    }
 
-function generatePassword (length) {
-    phrase = "";
+    if (numbers) {
+        charsetList.push(numbers);
+    }
+
+    if (symbols) {
+        charsetList.push(symbols);
+    }
+
+    
+}
+
+function generatePassword (characterList, length) {
+    var phrase = "";
     for (i = 0; i < length; i++) {
         phrase += alphaset[randomNumber(26)];
     }
@@ -12,8 +28,9 @@ function generatePassword (length) {
     return phrase;
 }
 
-function randomNumber(maxNumber) {  
-    return Math.floor(Math.random() * (maxNumber + 1) ); 
+function pickFromListRandomly(listOfChars) {  
+    return Math.floor(Math.random() * (listofChars.length + 1) ); 
 }
+
 
 console.log(generatePassword(5));
