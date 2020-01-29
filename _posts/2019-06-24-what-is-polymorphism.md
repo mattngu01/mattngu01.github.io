@@ -19,7 +19,7 @@ A quick Google search brings up this:
 In a class hierarchy, many objects share a common method or trait, but have different behaviors associated with each subclasses’ method or trait. 
 
 For example, Dog and Cat are both subclasses of Animal, and both of them have the ability to make some kind of noise.  
-##### Disclamer: This snippet will be in Python, which I had already written this example to contribute to a classwide study guide. The programming language we focused on was Python. 
+##### Disclaimer: This snippet will be in Python, which I had already written this example to contribute to a classwide study guide. The programming language we focused on was Python. 
 ```python
 class Animal():
     def __init__(self):
