@@ -40,7 +40,7 @@ Aptly named, inheritance refers to the ability of objects to pass down behaviors
 
 In programming, there are parent-child relationships between classes. For example, let's establish the `Animal` and `UnknownAnimal` class:
 
-```Python
+```python
 class Animal():
     # initialization here, etc..
     def __init__(self):
@@ -75,7 +75,7 @@ Encapsulation is the concept that each class encapsulates, or contains, relevant
 
 Python doesn't really have a true way to prevent variables from being accessed. So for this example, I'll use Java.
 
-```Java
+```java
 public class Person{
     private SSN;
     private lastName;
