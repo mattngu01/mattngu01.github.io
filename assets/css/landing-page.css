@@ -1,0 +1,128 @@
+
+body {
+    background-color: #262626;
+    color: #FFFFFF;
+    font-family: 'Rubik', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: .5em;
+}
+
+.about-me {
+    height: 44rem;
+    justify-content: center;
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me > p {
+    font-size: 1.5rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    flex-grow: auto;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("https://placehold.it/300x300");
+    background-color: gray;
+}
+
+a {
+    color: inherit;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+a.card {
+    position: relative;
+    text-align: center;
+}
+
+a.card > h3 {
+    margin: 50px;
+    font-size: 1.3pt;
+}
+
+a.card > p {
+    margin: 50px;
+    font-size: 1.3rem;
+}
+
+.overlay {
+    background-color: #181818;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.overlay > h3 {
+    width: 100%;
+}
+
+.overlay > p {
+    width: 80%;
+}
+
+a.card:hover .overlay {
+    opacity: 1;
+}
+
+a.card:active .overlay {
+    opacity: 1;
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 770px) {
+    .card {width: 100%;}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 719px) {
+    .about-me {margin: 0 2%;}
+    .projects {margin: 0 2%;}
+    .cards { margin-left: auto;}
+    .about-me{height: 28rem;}
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1023px) {
+    .about-me {margin: 0 2%;}
+    .projects {margin: 0 2%;}
+    .cards { margin-left: auto;}
+}
+
+@media only screen and (min-width: 1024px) {
+    .projects, .about-me { margin: 0 20%;}
+    .about-me > p {width: 60%;}
+}
+
+
+

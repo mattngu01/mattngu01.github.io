@@ -1,0 +1,23 @@
+---
+layout: default
+permalink: /blog
+---
+
+<head>
+<link rel="stylesheet" href=" {{ "/assets/css/blog_home.css" | relative_url }} ">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+
+{% include navigation.html %}
+
+{% for post in site.posts %}
+
+<article>
+    <h1><a href="{{ post.url | absolute_url }}" title="{{ post.title }}"> {{post.title}} </a></h1>
+    <time>{{post.date | date_to_long_string }}</time>
+    {{post.excerpt}}
+
+    <a class="button" href="{{ post.url | absolute_url }}">Read More</a>
+</article>
+
+{% endfor %}

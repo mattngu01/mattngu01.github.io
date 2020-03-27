@@ -1,0 +1,40 @@
+---
+layout: default
+permalink: /
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis fringill Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis fringill 
+---
+
+<head>
+<link rel="stylesheet" href="{{ "/assets/css/landing-page.css" | relative_url }}">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+
+{% include navigation.html %}
+
+<body>
+
+        <div class="about-me">
+            <h1>Hi, I'm Matthew.</h1>
+            <p>
+            {{ layout.description }}
+            </p>
+        </div>
+
+    <div class="projects">
+        <h2> Projects </h2>
+        <section class="cards">
+
+            {% for project in site.data.projects %}
+
+            <a class="card" href="{{ project.link }}" style="background-image: url('{{ project.picture_link }}')">  <!--These images are 400x400-->
+                <div class="overlay">
+                    <h3> {{ project.name }} </h3>
+                    <p> {{ project.description }} </p>
+                </div>
+            </a>
+            
+            {% endfor %}
+            
+        </section>
+    </div>
+</body>

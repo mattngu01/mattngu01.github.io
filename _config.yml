@@ -1,37 +1,44 @@
-title: "Matthew Nguyen"
-author: ""
-description: "A website for other students working towards their careers in computer science. Learn about beginner computer science concepts, explained by a student."
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Jekyll settings
-permalink: /:title/            # see https://jekyllrb.com/docs/permalinks/
-paginate: 10
-excerpt_separator: "\n\n\n"  # indicates the end of the excerpt by two blank lines
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_link:  https://github.com/mquan-nguyen
+resume_link:  ./assets/docs/MatthewNguyen-resume.pdf
+contact_link: 
 
-# Page settings
-show_excerpts: true          # show article previews on the home page instead of headlines
-hide_title: false            # remove site heading in the header
-post_footer: false            # show previous and next links at the end of each post
-date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
 
-# Theme settings
-style: contrast              # choose between "default", "contrast" and "minimal"
-dark_theme: false            # enables dark mode
-
-navigation:                  # (optional) site navigation in the header
-  - index.html
-  - archive.md
-  - about.md
-
-icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
-  envelope: "mailto:nguyen.matthewq@gmail.com"
-  github: "https://github.com/MYOOOTT"
-  rss: "/feed.xml"
-
-comments:                    # embed disqus or isso comments
-  disqus: "nguyen-matthewq"
-#  isso: ""
-
-plugins: 
- - jekyll-feed
- - jekyll-paginate
- - jekyll-default-layout
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
