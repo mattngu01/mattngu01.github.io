@@ -65,7 +65,7 @@ And that's all to inheritance!
 
 ## Polymorphism
 
-[I already explained Polymorphism here!](/what-is-polymorphism)
+[I already explained Polymorphism here!](% post_url 2020-01-28-what-is-polymorphism %})
 
 What was not mentioned in the polymorphism post, however, is that static polymorphism is achieved by **method overloading**, where you can rewrite the contents of a parent's function to make its own specialized behavior. 
 
