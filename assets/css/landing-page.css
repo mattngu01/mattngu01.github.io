@@ -40,8 +40,7 @@ h1 {
     margin: 15px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url("https://placehold.it/300x300");
-    background-color: gray;
+    background-color: #404040;
 }
 
 a {
