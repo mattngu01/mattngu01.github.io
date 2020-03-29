@@ -7,8 +7,3 @@
   description: Nova uses the API wrapper, discord.py to facilitate online scrimmages through Discord and is hosted on a Raspberry Pi for 24/7 uptime.
   link: https://github.com/mquan-nguyen/tenmans
   picture_link: /assets/images/discord.png
-
-- name: third header here
-  description: insert very very long description here
-  link: /
-  picture_link: https://placehold.it/400x400
