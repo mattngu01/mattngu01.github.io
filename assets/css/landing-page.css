@@ -41,6 +41,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #404040;
+    background-size: contain;
 }
 
 a {

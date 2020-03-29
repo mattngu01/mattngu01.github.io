@@ -1,7 +1,7 @@
-- name: header here?
-  description: insert description here
-  link: /
-  picture_link: https://placehold.it/400x400
+- name: Specify For Spotify
+  description: Made at HackUCI with three other individuals, Specify for Spotify allows users to search in a much more precise way than normal, by allowing them to select values for hidden attributes given to songs.
+  link: https://github.com/mquan-nguyen/HackUCI2020
+  picture_link: /assets/images/Specify.JPG
 - name: second header here
   description: insert very very long description here
   link: /
