@@ -87,10 +87,12 @@ a.card > p {
 
 .overlay > h3 {
     width: 100%;
+    font-size: 1.5rem;
 }
 
 .overlay > p {
     width: 80%;
+    font-size: 1.2rem;
 }
 
 a.card:hover .overlay {
