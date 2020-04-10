@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     margin-bottom: .5em;
 }
 
@@ -24,7 +24,7 @@ h1 {
 }
 
 .about-me > p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .cards {

@@ -7,3 +7,8 @@
   description: Nova uses the API wrapper, discord.py to facilitate online scrimmages through Discord and is hosted on a Raspberry Pi for 24/7 uptime.
   link: https://github.com/mquan-nguyen/tenmans
   picture_link: /assets/images/discord.png
+
+- name: Personal Website
+  description: This website was built completely from scratch, with only HTML and CSS. 
+  link: mquan-nguyen.github.io
+  picture_link: /assets/images/website.jpg
