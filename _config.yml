@@ -24,7 +24,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_link:  https://github.com/mquan-nguyen
 resume_link:  ./assets/docs/MatthewNguyen-resume.pdf
-contact_link: 
+contact_link: nguyen.matthewq@gmail.com
 
 # Build settings
 markdown: kramdown
