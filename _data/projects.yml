@@ -1,3 +1,8 @@
+- name: Valorant Throws
+  description: A website built for easy reference for Valorant lineups and abilities.
+  link: https://valorant-throws.herokuapp.com/
+  picture_link: /assets/images/valorant_throws.JPG
+  
 - name: Specify For Spotify
   description: Made at HackUCI with three other individuals, Specify for Spotify allows users to search in a much more precise way than normal, by allowing them to select values for hidden attributes given to songs.
   link: https://github.com/mquan-nguyen/HackUCI2020
@@ -12,3 +17,4 @@
   description: This website was built completely from scratch, with only HTML and CSS. 
   link: /
   picture_link: /assets/images/website.jpg
+
