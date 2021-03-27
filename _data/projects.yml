@@ -1,20 +1,20 @@
 - name: Valorant Throws
   description: A website built for easy reference for Valorant lineups and abilities.
   link: /2020/09/27/the-making-of-valorant-throws
-  picture_link: /assets/images/valorant_throws.JPG
+  picture_link: /assets/images/project-thumbnails/valorant_throws.JPG
   
 - name: Specify For Spotify
   description: Specify for Spotify allows users to search for songs in a much more precise way.
   link: https://github.com/mquan-nguyen/HackUCI2020
-  picture_link: /assets/images/Specify.JPG
+  picture_link: /assets/images/project-thumbnails/Specify.JPG
 
 - name: Nova Discord Bot
   description: A Discord bot to facilitate online scrimmages.
   link: https://github.com/mquan-nguyen/tenmans
-  picture_link: /assets/images/discord.png
+  picture_link: /assets/images/project-thumbnails/discord.png
 
 - name: Personal Website
   description: This website was built completely from scratch, with only HTML and CSS. 
   link: /
-  picture_link: /assets/images/website.jpg
+  picture_link: /assets/images/project-thumbnails/website.jpg
 
