@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My first blog post"
+title: My first blog post
 comments: True
 date: 2019-02-03 18:28:00
 ---

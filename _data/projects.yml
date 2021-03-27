@@ -4,12 +4,12 @@
   picture_link: /assets/images/valorant_throws.JPG
   
 - name: Specify For Spotify
-  description: Made at HackUCI with three other individuals, Specify for Spotify allows users to search in a much more precise way than normal, by allowing them to select values for hidden attributes given to songs.
+  description: Specify for Spotify allows users to search for songs in a much more precise way.
   link: https://github.com/mquan-nguyen/HackUCI2020
   picture_link: /assets/images/Specify.JPG
 
 - name: Nova Discord Bot
-  description: Nova uses the API wrapper, discord.py to facilitate online scrimmages through Discord and is hosted on a Raspberry Pi for 24/7 uptime.
+  description: A Discord bot to facilitate online scrimmages.
   link: https://github.com/mquan-nguyen/tenmans
   picture_link: /assets/images/discord.png
 

@@ -1,11 +1,8 @@
 ---
 layout: default
 ---
-<head>
-<link rel="stylesheet" href="{{ "/assets/css/page.css" | relative_url }}">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-</head>
 
-{% include navigation.html %}
-
-{{ content }}
+<article class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {{ content }}
+</article>

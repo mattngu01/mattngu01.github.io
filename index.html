@@ -1,3 +1,68 @@
 ---
-layout: landing_page
+layout: default
+title: Home
 ---
+
+<div class="about-me animate__animated animate__fadeInDown">
+  <h1>Hi, my name is Matthew Nguyen.</h1>
+
+  <p>I'm an aspiring software developer based in Tustin, California. <p>
+</div>
+
+
+<div class="animate__animated animate__fadeIn animate__delay-1s">
+  <h2> Projects </h2>
+
+  <div class="card-portfolio">
+
+    {% for project in site.data.projects %}
+
+    <div class="card-container"> 
+      <div class="card">
+        <a href="{{project.link}}">
+          <img src="{{project.picture_link}}" title="{{project.name}}">
+          <div class="card-text">
+            <h1 class="card-header"> 
+              {{project.name}}
+            </h1>
+            {{project.description}}
+          </div>
+        </a>
+      </div>
+    </div>
+
+    {% endfor %}
+    
+  </div>
+</div>
+
+<!-- the OG landing page
+<div class="posts">
+  {% for post in paginator.posts %}
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+
+    {{ post.content }}
+  </article>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+-->
