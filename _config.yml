@@ -32,9 +32,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Matthew Nguyen
+  url: https://github.com/mquan-nguyen
+  email: nguyen.matthewq@gmail.com
 
 # Custom vars
 version: 3.0.0
@@ -44,8 +44,8 @@ nav:
   - title: Blog
     url: /archive
 
-  - title: About
-    url: /about
+  #- title: About
+  #  url: /about
 
   - title: Github
     url: https://github.com/mquan-nguyen
