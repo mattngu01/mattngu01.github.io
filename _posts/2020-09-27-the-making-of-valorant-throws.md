@@ -28,7 +28,7 @@ I really liked the card-based look such as in <csgonades.com>, so I took a lot o
 
 Also, a couple of friends of mine suggested to take a look at the [Blitz](blitz.gg) app. They also use a card layout, but I really didn't like the way their lineups were titled or how the information was portrayed.
 
-![image of blitz.gg card with comments like this title is unreadable! who would do this...](/assets/images/blitzgg.jpg)
+![image of blitz.gg card with comments like this title is unreadable! who would do this...](/assets/images/blitzgg.JPG)
 
 I'm Not Really Sure How People Can Read Posts Like This.
 
