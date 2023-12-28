@@ -7,7 +7,7 @@ params:
 
   homeInfoParams:
     Title: Matthew Nguyen
-    Content: Hi, I'm a software engineering interested in developer productivity, backend & distributed services, and making systems reliable.
+    Content: Hi, I'm a software engineer interested in developer productivity, backend & distributed services, and making systems reliable.
   socialIcons:
     - name: "github"
       url: https://github.com/mquan-nguyen
@@ -16,3 +16,12 @@ params:
     - name: "email"
       url: nguyen.matthewq@gmail.com
   ShowBreadCrumbs: true 
+
+menu:
+  main:
+    - name: home
+      url: /
+      weight: 10
+    - name: archives
+      url: /archives
+      weight: 20
