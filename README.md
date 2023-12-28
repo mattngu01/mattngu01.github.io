@@ -1,4 +1,3 @@
-# My personal website
+This website uses [Hugo](https://gohugo.io/) to generate its content.
 
-This website is based on [Dark Poole](https://github.com/andrewhwanpark/dark-poole). I've slightly tweaked some things (like the landing page) and added my own tweaks.
-
+Theme: https://github.com/adityatelange/hugo-PaperMod

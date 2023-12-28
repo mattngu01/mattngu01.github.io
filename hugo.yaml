@@ -1,0 +1,18 @@
+languageCode: en-us
+title: mquan-nguyen.github.io
+theme: ["PaperMod"]
+params:
+  defaultTheme: dark
+  disableThemeToggle: true
+
+  homeInfoParams:
+    Title: Matthew Nguyen
+    Content: Hi, I'm a software engineering interested in developer productivity, backend & distributed services, and making systems reliable.
+  socialIcons:
+    - name: "github"
+      url: https://github.com/mquan-nguyen
+    - name: "linkedin"
+      url: https://www.linkedin.com/in/mq-nguyen/
+    - name: "email"
+      url: nguyen.matthewq@gmail.com
+  ShowBreadCrumbs: true 
