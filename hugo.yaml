@@ -10,7 +10,7 @@ params:
     Content: Hi, I'm a software engineer interested in developer productivity, backend & distributed services, and making systems reliable.
   socialIcons:
     - name: "github"
-      url: https://github.com/mquan-nguyen
+      url: https://github.com/mattngu01
     - name: "linkedin"
       url: https://www.linkedin.com/in/mq-nguyen/
     - name: "email"
