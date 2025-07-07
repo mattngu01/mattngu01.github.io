@@ -1,4 +1,8 @@
-# When Git Archive Trips Up Bazel
+---
+comments: true
+date: "2025-07-05T00:00:00Z"
+title: When Git Archive Trips Up Bazel
+---
 
 This was an issue that happened a couple of years ago while working at IMC. These are the leftovers of my notes, so apologies for some missing details / links.
 
