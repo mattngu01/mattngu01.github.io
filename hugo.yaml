@@ -2,20 +2,10 @@ languageCode: en-us
 title: mattngu01.github.io
 theme: ["nostyleplease"]
 params:
-  defaultTheme: dark
-  disableThemeToggle: true
-
-  homeInfoParams:
-    Title: Matthew Nguyen
-    Content: Hi, I'm a software engineer interested in developer productivity, backend & distributed services, and making systems reliable.
-  socialIcons:
-    - name: "github"
-      url: https://github.com/mattngu01
-    - name: "linkedin"
-      url: https://www.linkedin.com/in/mq-nguyen/
-    - name: "email"
-      url: nguyen.matthewq@gmail.com
-  ShowBreadCrumbs: true 
+  theme_config:
+    appearance: "dark"
+    back_home_text: "<<<"
+    isShowFooter: false
 
 menu:
   main:

@@ -1,0 +1,12 @@
+entries:
+  - title: "all posts"
+    post_list:
+      show_more: true
+      show_more_text: "See archive..."
+      show_more_url: "posts"
+  - title: "github"
+    url: "https://github.com/mattngu01"
+  - title: "email"
+    url: "nguyen.matthewq@gmail.com"
+  - title: "rss"
+    url: "index.xml"
