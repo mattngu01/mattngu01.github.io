@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Atkinson Hyperlegible Next";
+    src: url(/assets/fonts/AtkinsonHyperlegibleNext-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Atkinson Hyperlegible Mono";
+    src: url(/assets/fonts/AtkinsonHyperlegibleMono-VariableFont_wght.ttf) format("truetype");
+}
+
+body {
+  font-family: "Atkinson Hyperlegible Next", monospace;
+}
+
+code {
+  font-family: "Atkinson Hyperlegible Mono", monospace;
+}

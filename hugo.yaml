@@ -1,6 +1,6 @@
 languageCode: en-us
 title: mattngu01.github.io
-theme: ["PaperMod"]
+theme: ["nostyleplease"]
 params:
   defaultTheme: dark
   disableThemeToggle: true
