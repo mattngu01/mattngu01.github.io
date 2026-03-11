@@ -1,7 +1,7 @@
 @use 'fonts';
 
 // -------------- THEME SWITCHER -------------- //
-@mixin theme($--bg-color, $--primary-text-color, $--secondary-text-color, $--link-color, $--visited-link-color, $--highlight) {
+@mixin theme($--bg-color, $--primary-text-color, $--secondary-text-color, $--link-color, $--visited-link-color, $--highlight, $--code-color) {
   background-color: $--bg-color;
 
   color: $--primary-text-color;
@@ -30,8 +30,7 @@
   code:not(pre > code) {
     // no background
     // just change color to orange
-    background-color: $--primary-text-color;
-    color: $--primary-text-color;
+    color: $--code-color;
 
   }
 
@@ -56,12 +55,13 @@
   }
 }
 
-@mixin dark-appearance {
-  @include theme(#000000, #ffffff, #000000, #79a8ff, #f78fe7, #2f3849); // modus-vivendi
+// bg-color, primary-text, secondary-text, link-color, visited-link, highlight, code-color
+@mixin dark-appearance{
+  @include theme(#100F0F, #CECDC3, #878580, #3AA99F, #8B7EC8, #D0A215, #DA702C)
 }
 
 @mixin light-appearance {
-  @include theme(#ffffff, #000000, #595959, #3548cf, #8f0075, #dae5ec); // modus-operandi
+  @include theme(#ffffff, #000000, #595959, #3548cf, #8f0075, #dae5ec, #005f5f); // modus-operandi
 }
 
 body[a="dark"] { @include dark-appearance; }
